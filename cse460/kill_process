@@ -1,0 +1,10 @@
+ 
+if pgrep test1
+then
+    echo "Process test1 is running"
+    pkill  test1 # kill all test1 processes are running
+   echo "Process test1 is killed"
+else
+    echo "Process test1 not running!"
+   
+fi
